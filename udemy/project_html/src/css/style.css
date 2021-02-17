@@ -1,0 +1,15 @@
+body{
+    background-color: khaki;
+}
+.chapter{
+    text-align: center;
+    color:#8F3323;
+    cursor: pointer;
+}
+.cursor{
+    font-style: italic;
+}
+img{
+    width: 300px;
+    background: url()
+}

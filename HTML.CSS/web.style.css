@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    flex-direction: column;
+    
+}
+header{
+    height: 71px;
+    width: 100% ;
+    margin: 0 auto;
+    border-bottom:1px solid blue;
+    box-shadow: 0 0 15px rgb(255,255,255);
+    background:#000 ;
+    content: none;
+    position: absolute;
+    flex: top;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+ul{
+    margin-left:300px; 
+}
+li{
+    margin:0;
+    padding:26px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li input{
+    width: 230px;
+    height: 30px;
+    font-size: 15px;
+    margin-top:-8px;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    padding-left: 7px;
+    font-family: fantasy;   
+
+}
+.icon a:hover{
+    
+    color:white;
+    text-shadow: 0em 0em 5em white,
+                 0em 0em 3em white,
+                 0em 0em 2em white,
+                 1px 1px 5px white,
+                 0px 0px 10px white;
+}
+a{
+    color:white;
+    text-decoration: none;
+    outline: none;
+}
+.backraund{
+    background:url("https://avatars.mds.yandex.net/get-pdb/872807/a8d5fa98-519e-4d78-80d9-39d31b9bb6c6/s1200?webp=false")no-repeat center top/cover;
+}
+.backraund1{
+    background:url("https://www.zastavki.com/pictures/originals/2015/Space_View_Jupiter_satellite_of_the_planet_110613_.jpg")no-repeat center top/cover;
+}
+.backraund2{
+    background:url("https://avatars.mds.yandex.net/get-zen_doc/198554/pub_5d48a932ae56cc00ac951046_5d48a9ba04af1f00ad593470/scale_1200")no-repeat center right/ cover;
+}
+section{
+    width: 100%;
+    height: 550px;
+}
+
+section a{
+    color:white;
+    text-shadow: 0em 0em 5px blue,
+                 0em 0em 3px blue,
+                 0em 0em 2px blue,
+                 1px 1px 5px blue,
+                 0px 0px 10px blue,
+                 0px 0px 25px blue,
+                 0px 0px 45px blue; 
+}
+.text2 a{
+    color:white;
+    text-shadow: 0em 0em 2px chocolate,
+                 0em 0em 3px chocolate,
+                 0em 0em 4px chocolate,
+                 1px 1px 5px chocolate,
+                 0px 0px 10px chocolate,
+                 0px 0px 25px chocolate;
+}
+.text3 a{
+    color:white;
+    text-shadow: 0em 0em 2px lawngreen,
+                 0em 0em 3px lawngreen,
+                 0em 0em 4px lawngreen,
+                 1px 1px 5px lawngreen,
+                 0px 0px 10px lawngreen;
+}
+.text1 p{
+    font-size: 20px;
+    padding-top: 160px;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    color:white;
+    text-shadow:  1px 1px 1px black;
+    font-weight: bold;
+}
+.text2 p{
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    color:white;
+    text-shadow:  1px 1px 1px black;
+    float: right;
+    font-weight: bold;
+}
+.text3 p{
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    color:white;
+    text-shadow:  1px 1px 1px black;
+    font-weight: bold;
+}
+.welcome{
+    height: 10px;
+}
+.welcome:hover{
+    color:white;
+    text-shadow: 0em 0em 5px blue,
+                 0em 0em 3px blue,
+                 0em 0em 2px blue,
+                 1px 1px 5px blue,
+                 0px 0px 10px blue,
+                 0px 0px 25px blue,
+                 0px 0px 45px blue;   
+}
+.logotip{   
+    margin-left:0px;
+    font-size: 30px;
+    padding: 20px;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 5px blue, 0px 0px 7px blue;
+}
+@keyframes blur {
+    from{
+    text-shadow: 0em 0em 1px blue,
+                 0em 0em 3px blue,
+                 0em 0em 5px blue,
+                 0em 0em 7px blue,
+                 0em 0em 9px blue,
+                 0em 0em 11px blue,
+                 0em 0em 15px blue,
+                 0em 0em 17px blue,
+                 0px 0px 20px blue,
+                 0px 0px 35px blue,
+                 0px 0px 45px blue,
+                 2px 0px 0px white,
+                -1px 0px 2px white,
+                -3px 0px 4px white,
+                -6px 0px 6px white,
+                5px 0px 8px white;
+    }
+}
+.footer{
+    bottom: 0;
+    flex-shrink: 0;
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    background:linear-gradient(120deg,black,blue,blue,black);
+    padding-top:40px;
+    height:50px;
+    font-family: fantasy;
+}

@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    outline: none;
+    margin: 0;
+
+}
+body{  
+    /* background:url(https://img3.goodfon.ru/original/2048x1363/6/5b/knigi-stranicy-tekst-zakladka.jpg)no-repeat center top / cover; */
+    flex-direction: column;
+    font-size: 13px;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1250px;
+    margin:0 auto;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    border:none;
+}
+li{
+    margin-top: 60px;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight:bold;
+    display: block;
+}
+ul a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+    transition: 0.2s;
+}
+a{
+    padding-bottom: 5px;
+    color:white;
+    text-decoration: none;
+}
+.bg_book{
+    background:url(https://n1s1.elle.ru/08/e6/b3/08e6b3ef0087d4f6659e5a5ac91c5246/1000x667_0xd42ee42a_5906618561409809627.jpeg)no-repeat center  / cover;
+    width: 100%;
+    height: 400px;
+}
+.text_books{
+    display: block;
+    height: 80px;
+    position: relative;
+}
+.text_book{
+    background-color: red;
+    width: 500px;
+    height:80px;
+    display: inline-block;  
+    font-weight: bold;
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.text_book:hover .text_books{
+    top:-105%;
+    transition: 10.2s;
+}
+.citat{
+    border: 1px solid black;
+    width: 750px;
+    height:200px;
+    background: #333;
+    margin: 40px 0px 0px 100px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.img_citat{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 2%;
+    background:url(https://news.liga.net/images/general/2019/12/06/20191206134341-6849.jpg?v=1575637510)no-repeat center top / cover;
+
+}
+.text_citat{
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    flex: right;
+    font-weight: bold;
+    margin-left:210px;
+    font-size: 20px;
+    color:#fff;
+}
+.poisk{
+    width: 780px;
+    height: 40px;
+    margin:30px 0px 0px 100px;
+    border-radius: 10px;
+    border:1px solid black;
+    font-size: 20px;
+    padding-left:10px;
+    outline:none;
+}
+.poisk:hover{
+    content: " ";
+    box-shadow: 0;
+}
+.static{
+    margin-top:-20px;
+    width: 330px;
+    height: 680px;
+    background: #333;
+    margin-left:800px;
+    border-radius: 20px;
+    padding-top: 20px;
+   
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.static p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom:20px;
+}
+.lesson{
+    width: 250px;
+    font-size: 25px;
+    margin-left: 30px;
+    color:white;
+    text-decoration:none;
+    margin: 10px;
+    text-transform: capitalize;
+
+}
+.lesson:hover{
+    background: red;
+}
+.books{
+    margin: 10px;
+    width: 137px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    background: black;
+    top:50%;
+    left:30%;
+    transform: translate(30%,10%);
+}
+.books:hover{
+    opacity: 0.6;
+}
+.new_books{
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 20px 0px 0px 100px;
+}

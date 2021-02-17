@@ -1,0 +1,104 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+.circle{
+    width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 500px;
+	-webkit-border-radius:50px;
+    border-radius: 50px;
+    position: absolute;
+    left: 38.7%;
+    top:42%;
+    animation-name: circle1;
+    animation-duration: 7s;
+}
+@keyframes circle1{
+    from{
+        transform: rotate(0deg);
+        left: 0%;
+    }
+    to{
+        transform: rotate(90deg);
+    }
+}
+.triangle{
+    width: 0px;
+	height:100px;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+    border-bottom: 200px solid rgb(100, 1, 1);
+    position:absolute;
+    left: 30%;
+    top:20%;
+    animation-name: triangle1;
+    animation-duration: 7s;
+} 
+@keyframes triangle1{
+    from{
+        transform: rotate(0deg);
+        left: 100%;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.coube{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 33%;
+    top:58.7%;
+    animation-name: coube1;
+    animation-duration: 7s;
+}
+@keyframes coube1{
+    from{
+        transform: rotate(0deg);
+        left: 100%;
+        top: 100%;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.rectangle{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+    left: 39%;
+    top:68.5%;
+    animation-name: rectangle1;
+    animation-duration: 7s;
+}
+@keyframes rectangle1{
+    from{
+        transform: rotate(0deg);
+        top:0%;
+        left: 0%;
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+img{
+    animation-duration: 10s;
+    animation-name: cloud1;
+    position: absolute;
+    width: 300px;
+    animation-iteration-count:alternate; 
+}
+@keyframes cloud1{
+    from{
+        top:0%;
+        left:0%;
+    }
+    to{
+        top:0%;
+        left:100%;
+    }
+}
